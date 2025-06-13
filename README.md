@@ -3,7 +3,7 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>منيو مطعم وبيتزا أبو علي</title>
+    <title>🌿منيو مطعم وبيتزا أبو علي🌿</title>
     <style>
         body { font-family: 'Arial', sans-serif; background-color: #fff8f0; color: #333; margin: 20px; }
         h1, h2 { color: #b22222; text-align: center; }
@@ -42,7 +42,7 @@
     <h1>مطعم وبيتزا أبو علي</h1>
 
     <section>
-        <h2>القسم الأول : بيتزا</h2>
+        <h2>🍕القسم الأول : بيتزا</h2>
         <ul>
             <li>خضار - 8</li>
             <li>نقانق وجبنة - 8</li>
