@@ -1,200 +1,422 @@
-# menu.AboAli
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>✦ مطعم وبيتزا أبو علي ✦</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #fff8f0;
-            color: #333;
-            margin: 20px;
-        }
-        h1, h2 {
-            color: #b22222;
-            text-align: center;
-        }
-        section {
-            margin-bottom: 40px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            padding: 5px 0;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2b6a0;
-        }
-        .contact, .address, .social {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .family-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-            font-size: 14px;
-            background-color: #fff;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-        }
-        .family-table thead {
-            background-color: #f2b6a0;
-        }
-        .family-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مطعم وبيتزا أبو علي</title>
+
+<style>
+body{
+    font-family:'Arial',sans-serif;
+    background:#fff8f0;
+    margin:20px;
+    color:#333;
+}
+
+h1,h2{
+    text-align:center;
+    color:#b22222;
+}
+
+section{
+    margin-bottom:40px;
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin-bottom:18px;
+    padding-bottom:10px;
+    border-bottom:1px solid #eee;
+}
+
+.item-name{
+    font-weight:bold;
+    font-size:18px;
+    color:#b22222;
+}
+
+.ingredients{
+    color:#666;
+    margin-top:5px;
+    font-size:14px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+    background:#fff;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#f2b6a0;
+    color:#000;
+}
+
+tr:nth-child(even){
+    background:#fafafa;
+}
+</style>
 </head>
+
 <body>
-    <h1>┏━━━✦❘༻ مطعم وبيتزا أبو علي ༺❘✦━━━┓</h1>
 
-    <section>
-        <h2>╔════ ❖ القسم الأول : بيتزا ❖ ════╗</h2>
-        <ul>
-            <li>خضار - 8₪</li>
-            <li>نقانق وجبنة - 8₪</li>
-            <li>مسحب - 12₪</li>
-            <li>سلامي - 10₪</li>
-            <li>مارجريتا - 8₪</li>
-            <li>تونا - 10₪</li>
-            <li>قدسية (جبنة، بيض، زيتون، نقانق، ذرة) - 8₪</li>
-            <li>ميشولاش - 9₪</li>
-            <li>جبنة عربية مع زعتر / أو بدون - 8₪</li>
-            <li>مكس أجبان مع بيض / أو بدون - 8₪</li>
-            <li>أقراص بيض - 6₪</li>
-            <li>فطر وجبنة وبيض - 8₪</li>
-            <li>جبنة مع بيض خفق - 8₪</li>
-            <li>منقوشة لبنانية - 10₪</li>
-            <li>عكاوي - 12₪</li>
-            <li>مناقيش - 3₪</li>
-            <li>مناقيش كبير - 12₪</li>
-            <li>فنكوشة (جبنة وزعتر) - 12₪</li>
-            <li>أقراص سبانخ - 8₪</li>
-            <li>أقراص لحمة - 12₪</li>
-            <li>منكوشة أبو علي - 8₪</li>
-            <li>أفوكادو - 12₪</li>
-        </ul>
-    </section>
+<h1>┏━━━✦❘༻ مطعم وبيتزا أبو علي ༺❘✦━━━┓</h1>
 
-    <section>
-        <h2>╔════ ❖ القسم الثاني : كالزوني (مسكر) ❖ ════╗</h2>
-        <ul>
-            <li>كالزوني خضار - 8₪</li>
-            <li>كالزوني مسحب - 12₪</li>
-            <li>كالزوني سلامي - 10₪</li>
-            <li>كالزوني مكس أجبان (مع بيض أو بدون) - 8₪</li>
-            <li>كالزوني جبنة عربية مع زعتر / أو بدون - 8₪</li>
-            <li>كالزوني نقانق وجبنة - 8₪</li>
-            <li>كالزوني فطر - 8₪</li>
-            <li>كالزوني مارجريتا - 8₪</li>
-        </ul>
-    </section>
+<section>
+<h2>قسم البيتزا والمعجنات</h2>
 
-    <section>
-        <h2>╔════ ❖ القسم الثالث : الوجبات العائلية ❖ ════╗</h2>
-        <table class="family-table">
-            <thead>
-                <tr>
-                    <th>الصنف</th>
-                    <th>S</th>
-                    <th>MS</th>
-                    <th>M</th>
-                    <th>L</th>
-                    <th>XL</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>خضار</td><td>8</td><td>20</td><td>30</td><td>40</td><td>50</td></tr>
-                <tr><td>مسحب</td><td>12</td><td>30</td><td>45</td><td>55</td><td>65</td></tr>
-                <tr><td>سلامي</td><td>10</td><td>25</td><td>40</td><td>50</td><td>60</td></tr>
-                <tr><td>نص مسحب نص خضار</td><td>12</td><td>30</td><td>40</td><td>50</td><td>60</td></tr>
-                <tr><td>نص سلامي نص خضار</td><td>10</td><td>25</td><td>40</td><td>50</td><td>60</td></tr>
-                <tr><td>نص مسحب نص سلامي</td><td>12</td><td>30</td><td>45</td><td>55</td><td>65</td></tr>
-                <tr><td>مارجريتا</td><td>8</td><td>20</td><td>30</td><td>40</td><td>50</td></tr>
-                <tr><td>جبنة عربية</td><td>8</td><td>20</td><td>25</td><td>30</td><td>35</td></tr>
-                <tr><td>الفصول الأربعة</td><td>_</td><td>_</td><td>45</td><td>55</td><td>65</td></tr>
-            </tbody>
-        </table>
-    </section>
+<ul>
 
-    <section>
-        <h2>╔════ ❖ القسم الرابع : السندويشات والتوستات ❖ ════╗</h2>
-        <ul>
-            <li>توست سلامي - 13₪</li>
-            <li>توست أجبان - 13₪</li>
-            <li>توست نقانق - 13₪</li>
-            <li>روست بيف (كتف عجل) - 12₪</li>
-            <li>روست بيف (صدر جاج) - 12₪</li>
-        </ul>
-    </section>
+<li>
+<div class="item-name">بيتزا سمول — 8₪</div>
+<div class="ingredients">(ذرة، زيتون، فلفل، جبنة، صوص، نقانق)</div>
+</li>
 
-    <section>
-        <h2>╔════ ❖ القسم الخامس : المقبلات ❖ ════╗</h2>
-        <table class="family-table">
-            <thead>
-                <tr>
-                    <th>الصنف</th>
-                    <th>صغير</th>
-                    <th>كبير</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>بطاطا</td><td>10</td><td>20</td></tr>
-                <tr><td>حلقات بصل</td><td>10</td><td>20</td></tr>
-                <tr><td>كرات بطاطا</td><td>10</td><td>20</td></tr>
-            </tbody>
-        </table>
-    </section>
+<li>
+<div class="item-name">مسحب / باربيكيو — 12₪</div>
+<div class="ingredients">(صوص، جبنة، مسحب دجاج، صوص باربيكيو)</div>
+</li>
 
-    <section>
-        <h2>╔════ ❖ القسم السادس : شاورما ولفات ❖ ════╗</h2>
-        <ul>
-            <li>لفة شاورما جاج - 15₪</li>
-            <li>لفة شاورما عجل - 18₪</li>
-            <li>لفة شاورما مكس - 18₪</li>
-            <li>وجبة شاورما جاج - 22₪</li>
-            <li>وجبة شاورما عجل - 25₪</li>
-            <li>باشكا شاورما - 22₪</li>
-            <li>شنتسل - 15₪</li>
-            <li>ميشولاش شاورما مع جبنة - 13₪</li>
-            <li>فرشوحة شاورما - 15₪</li>
-            <li>صحن شاورما مع سلطات - 25₪</li>
-        </ul>
-    </section>
+<li>
+<div class="item-name">خضار — 8₪</div>
+<div class="ingredients">(صوص، جبنة، ذرة، زيتون، فلفل / فطر حسب الرغبة)</div>
+</li>
 
-    <div class="contact">
-        <h2>┏━━ ❖ الأرقام ❖ ━━┓</h2>
-        <p>#+972 52-307-3771<br>#+972549170022<br>#+970 598 482 070</p>
+<li>
+<div class="item-name">سلامي — 10₪</div>
+<div class="ingredients">(صوص، جبنة، سلامي)</div>
+</li>
+
+<li>
+<div class="item-name">سبانخ أقراص — 8₪</div>
+</li>
+
+<li>
+<div class="item-name">سبانخ — 10₪</div>
+<div class="ingredients">(مع جبنة، مع لحمة)</div>
+</li>
+
+<li>
+<div class="item-name">مكس أجبان بدون بيض — 8₪</div>
+<div class="ingredients">(جبنة بيضة، جبنة صفرا)</div>
+</li>
+
+<li>
+<div class="item-name">مكس أجبان مع بيض — 9₪</div>
+<div class="ingredients">(جبنة بيضة، جبنة صفرا، زعتر دقة، بيض مسلوق)</div>
+</li>
+
+<li>
+<div class="item-name">منكوشة لبنانية — 10₪</div>
+<div class="ingredients">(عجينة مطاولة، قطع جبنة بيضة حلوم، رشة زعتر، قطع بندورة)</div>
+</li>
+
+<li>
+<div class="item-name">عكاوي — 12₪</div>
+<div class="ingredients">(عجينة مطاولة، جبنة بيضة، جبنة صفرا، جبنة عكاوي، رشة زعتر)</div>
+</li>
+
+<li>
+<div class="item-name">نقانق وجبنة — 8₪</div>
+<div class="ingredients">(صوص، جبنة، نقانق، ذرة / أو بدون)</div>
+</li>
+
+<li>
+<div class="item-name">مارجريتا — 8₪</div>
+<div class="ingredients">(صوص، جبنة، ذرة / أو بدون)</div>
+</li>
+
+<li>
+<div class="item-name">تونا — 10₪</div>
+<div class="ingredients">(صوص، تونا، زيتون، ذرة، جبنة، فلفل)</div>
+</li>
+
+<li>
+<div class="item-name">قدسية — 9₪</div>
+<div class="ingredients">(جبنة، بيض، زيتون، نقانق، ذرة)</div>
+</li>
+
+<li>
+<div class="item-name">ميشولاش — 9₪</div>
+<div class="ingredients">(صوص، جبنة، زيتون، ذرة، بيضة مسلوقة)</div>
+</li>
+
+<li>
+<div class="item-name">جبنة عربية — 8₪</div>
+<div class="ingredients">(مع زعتر أخضر، أو زعتر دقة، أو بدون)</div>
+</li>
+
+<li>
+<div class="item-name">أقراص بيض — 8₪</div>
+</li>
+
+<li>
+<div class="item-name">فطر — 8₪</div>
+<div class="ingredients">(فطر مع خلطة خاصة، بصل، جبنة)</div>
+</li>
+
+<li>
+<div class="item-name">جبنة وبيض خفق — 8₪</div>
+<div class="ingredients">(جبنة بيضة، جبنة صفرا، بيض، فطر أو بدون)</div>
+</li>
+
+<li>
+<div class="item-name">مناقيش زعتر — 3₪</div>
+</li>
+
+<li>
+<div class="item-name">صفيحة بندورة — 10₪</div>
+</li>
+
+<li>
+<div class="item-name">أقراص لحمة — 12₪ / 13₪</div>
+<div class="ingredients">(لحمة مفرومة مطبوخة، جبنة / أو بدون)</div>
+</li>
+
+<li>
+<div class="item-name">معجنة أفوكادو — 10₪</div>
+<div class="ingredients">(عجينة مطاولة، أفوكادو، قطع بندورة، رشة زعتر)</div>
+</li>
+
+</ul>
+</section>
+
+<section>
+<h2>قسم المعجنات والبيتزا المسكرة (كالزوني)</h2>
+
+<ul>
+<li>كالزوني خضار — 8₪</li>
+<li>كالزوني مسحب — 12₪</li>
+<li>كالزوني سلامي — 10₪</li>
+<li>كالزوني مكس أجبان — 8₪
+<div class="ingredients">(مع بيض / أو بدون)</div>
+</li>
+<li>كالزوني جبنة — 8₪
+<div class="ingredients">(مع زعتر / أو بدون)</div>
+</li>
+<li>كالزوني نقانق وجبنة — 8₪</li>
+<li>كالزوني فطر — 8₪</li>
+<li>كالزوني مارجريتا — 8₪</li>
+</ul>
+</section>
+
+<section>
+<h2>قسم الوجبات العائلية</h2>
+
+<table>
+<thead>
+<tr>
+<th>الصنف</th>
+<th>S</th>
+<th>M.S</th>
+<th>M</th>
+<th>L</th>
+<th>XL</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td>خضار</td><td>8₪</td><td>20₪</td><td>30₪</td><td>40₪</td><td>50₪</td></tr>
+<tr><td>مسحب</td><td>12₪</td><td>30₪</td><td>45₪</td><td>55₪</td><td>65₪</td></tr>
+<tr><td>سلامي</td><td>10₪</td><td>25₪</td><td>40₪</td><td>50₪</td><td>60₪</td></tr>
+<tr><td>نص مسحب - نص خضار</td><td>12₪</td><td>30₪</td><td>40₪</td><td>50₪</td><td>60₪</td></tr>
+<tr><td>نص سلامي - نص خضار</td><td>10₪</td><td>25₪</td><td>40₪</td><td>50₪</td><td>60₪</td></tr>
+<tr><td>نص مسحب - نص سلامي</td><td>12₪</td><td>30₪</td><td>45₪</td><td>55₪</td><td>65₪</td></tr>
+<tr><td>مارجريتا</td><td>8₪</td><td>20₪</td><td>30₪</td><td>40₪</td><td>50₪</td></tr>
+<tr><td>جبنة عربية</td><td>8₪</td><td>20₪</td><td>25₪</td><td>35₪</td><td>40₪</td></tr>
+<tr><td>الفصول الأربعة</td><td>-</td><td>-</td><td>45₪</td><td>55₪</td><td>65₪</td></tr>
+<tr><td>الصفيحة</td><td>10₪</td><td>25₪</td><td>40₪</td><td>50₪</td><td>60₪</td></tr>
+</tbody>
+
+</table>
+</section>
+
+<section>
+<h2>قسم التوستات</h2>
+
+<ul>
+
+<li>
+<div class="item-name">توست سلامي — 13₪</div>
+<div class="ingredients">(صوص، سلامي، جبنة)</div>
+</li>
+
+<li>
+<div class="item-name">توست أجبان — 13₪</div>
+<div class="ingredients">(لبنة، زيتون، ذرة، جبنة، صوص)</div>
+</li>
+
+<li>
+<div class="item-name">توست النقانق — 13₪</div>
+<div class="ingredients">(صوصات، نقانق، جبنة)</div>
+</li>
+
+<li>
+<div class="item-name">روست بيف (كتف عجل) — 12₪</div>
+<div class="ingredients">(لبنة / أو أفوكادو، خس، بندورة، مخلل)</div>
+</li>
+
+<li>
+<div class="item-name">صدر حبش — 12₪</div>
+</li>
+
+</ul>
+</section>
+
+<section>
+<h2>قسم الساندوش</h2>
+
+<ul>
+
+<li>
+<div class="item-name">برجر كرسبي / 3 قطع — 22₪</div>
+<div class="ingredients">(صوصات، بطاطا، خس، جبنة، كولسلو اختياري، بصل، مخلل)</div>
+</li>
+
+<li>
+<div class="item-name">باجيت كرسبي / 3 قطع — 22₪</div>
+</li>
+
+<li>
+<div class="item-name">برجر سنتسل / قطعتين — 20₪</div>
+<div class="ingredients">(بندورة، خس، كولسلو، بصل)</div>
+</li>
+
+<li>
+<div class="item-name">باجيت فيله دجاج / قطعتين — 22₪</div>
+</li>
+
+<li>
+<div class="item-name">إضافة صوصات — 2₪</div>
+</li>
+
+<li>
+<div class="item-name">علبة كولسلو — 7₪</div>
+</li>
+
+</ul>
+</section>
+
+<section>
+<h2>قسم تشكن أبو علي</h2>
+
+<ul>
+
+<li>
+<div class="item-name">(5) قطع كرسبي — 25₪</div>
+<div class="ingredients">(كرسبي، صوصات، كولسلو، بطاطا)</div>
+</li>
+
+<li>
+<div class="item-name">(10) قطع كرسبي — 45₪</div>
+<div class="ingredients">(كولا لتر)</div>
+</li>
+
+<li>
+<div class="item-name">(15) قطعة كرسبي — 70₪</div>
+<div class="ingredients">(كولا لتر)</div>
+</li>
+
+<li>
+<div class="item-name">(20) قطعة كرسبي — 85₪</div>
+</li>
+
+</ul>
+</section>
+
+<section>
+<h2>قسم السمك</h2>
+
+<ul>
+<li>
+<div class="item-name">(5) قطع فيله سمك — 25₪</div>
+</li>
+</ul>
+</section>
+
+<section>
+<h2>قسم الأجنحة</h2>
+
+<ul>
+
+<li>
+<div class="item-name">(10) قطع أجنحة — 20₪</div>
+<div class="ingredients">(بطاطا، كولسلو، خبز)</div>
+</li>
+
+<li>
+<div class="item-name">(15) جناح — 30₪</div>
+</li>
+
+<li>
+<div class="item-name">(20) جناح — 35₪</div>
+</li>
+
+<li>
+<div class="item-name">(30) جناح — 50₪</div>
+</li>
+
+<li>
+<div class="item-name">فريز تشيكن — 22₪</div>
+</li>
+
+</ul>
+</section>
+ 
+<!-- ضع هذا الكود قبل إغلاق وسم body مباشرة -->
+
+<section>
+    <h2>┏━━ ❖ الأرقام ❖ ━━┓</h2>
+
+    <div style="text-align:center; line-height:2; font-size:18px;">
+        <p>📞 +972 52-307-3771</p>
+        <p>📞 +972 54-917-0022</p>
+        <p>📞 +970 598 482 070</p>
     </div>
+</section>
 
-    <div class="contact">
-        <h2>┏━━ ❖ أرقام الواتساب ❖ ━━┓</h2>
-        <p>#+972 52-307-3771<br>#+972 54-917-0022</p>
-    </div>
+<section>
+    <h2>┏━━ ❖ أرقام الواتساب ❖ ━━┓</h2>
 
-    <div class="address">
-        <h2>┏━━ ❖ العنوان ❖ ━━┓</h2>
-        <p>📍 قبلان اول البلد</p>
+    <div style="text-align:center; line-height:2; font-size:18px;">
+        <p>💬 +972 52-307-3771</p>
+        <p>💬 +972 54-917-0022</p>
     </div>
+</section>
 
-    <div class="social">
-        <h2>┏━━ ❖ صفحة الفيسبوك ❖ ━━┓</h2>
-        <a href="https://www.facebook.com/share/16gTDuz4Kf/">اضغط هنا</a>
+<section>
+    <h2>┏━━ ❖ العنوان ❖ ━━┓</h2>
+
+    <div style="text-align:center; font-size:18px;">
+        📍 قبلان أول البلد
     </div>
+</section>
+
+<section>
+    <h2>┏━━ ❖ صفحة الفيسبوك ❖ ━━┓</h2>
+
+    <div style="text-align:center; font-size:18px;">
+        <a href="https://www.facebook.com/share/16gTDuz4Kf/" target="_blank"
+        style="color:#b22222; text-decoration:none; font-weight:bold;">
+        اضغط هنا لزيارة الصفحة
+        </a>
+    </div>
+</section>
+
 </body>
-</html> 
+</html>
