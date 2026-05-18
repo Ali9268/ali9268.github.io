@@ -3,69 +3,78 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مطعم وبيتزا أبو علي - المنيو الملكي الفاخر</title>
+<title>مطعم وبيتزا أبو علي - المنيو الملون الفاخر</title>
 
 <style>
-    /* تصميم الهوية الملكية الفاخرة - ذهبي وأبيض وأسود */
+    /* تصميم مستوحى من لوحة ألوان المطاعم العالمية والدافئة */
     body {
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        background-color: #fcfbf7; /* خلفية بيضاء عاجية فاخرة */
-        color: #111111; /* خطوط سوداء ملكية واضحة */
+        background: #2b1b12 linear-gradient(135deg, #2b1b12 0%, #170e0a 100%); /* خلفية خشبية داكنة ودافئة تعطي فخامة للمنيو */
+        color: #333333;
         margin: 0;
         padding: 15px;
         line-height: 1.6;
     }
 
-    /* الهيدر الملكي العريق */
+    /* الهيدر الرئيسي الفخم */
     header {
         text-align: center;
-        padding: 45px 20px;
-        background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); /* خلفية سوداء فخمة للهيدر لبروز الذهب */
+        padding: 35px 20px;
+        background: linear-gradient(145deg, #7a2214 0%, #4a120a 100%); /* لون أحمر طوبي ملكي */
         border-radius: 25px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
         border: 3px solid #d4af37; /* إطار ذهبي ملوكي */
-        box-shadow: 0 10px 25px rgba(212, 175, 55, 0.2);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.5);
     }
 
     header h1 {
         margin: 0;
-        font-size: 34px;
-        color: #d4af37; /* اسم المطعم بالذهبي النقي */
-        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        font-size: 32px;
+        color: #ffffff;
         font-weight: 900;
-        letter-spacing: 1px;
+        text-shadow: 0 3px 6px rgba(0,0,0,0.6);
     }
 
     header p {
-        margin: 12px 0 0 0;
-        color: #ffffff;
+        margin: 10px 0 0 0;
+        color: #f1c40f; /* أصفر ذهبي */
         font-weight: bold;
         font-size: 16px;
-        letter-spacing: 2px;
     }
 
-    /* بطاقات الأقسام البيضاء المؤطرة بالذهب */
+    /* صناديق الأقسام الملونة والمرتبة */
     section {
-        margin-bottom: 35px;
-        background: #ffffff; /* خلفية بيضاء ناصعة ونظيفة */
-        padding: 24px;
-        border-radius: 24px;
-        border: 2px solid #e5c158; /* إطار ذهبي ناعم */
-        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        margin-bottom: 30px;
+        background: #ffffff; /* كروت بيضاء ساطعة لبروز الألوان والخطوط */
+        padding: 20px;
+        border-radius: 22px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255,255,255,0.1);
+        overflow: hidden;
     }
 
-    /* عناوين الأقسام الملكية */
+    /* تنسيق ألوان العناوين لكل قسم ليكون منوع ومبهج ومرتب */
+    section.pizza h2 { background: linear-gradient(90deg, #b8321a, #e67e22); } /* أحمر و برتقالي */
+    section.calzone h2 { background: linear-gradient(90deg, #d35400, #f39c12); } /* برتقالي دافئ */
+    section.family h2 { background: linear-gradient(90deg, #1e5631, #4c9a2a); } /* أخضر ملوكي للأحجام */
+    section.toast h2 { background: linear-gradient(90deg, #7f8c8d, #bdc3c7); color: #111 !important; } /* رمادي كلاسيكي */
+    section.burger h2 { background: linear-gradient(90deg, #c0392b, #962d22); } 
+    section.chicken h2 { background: linear-gradient(90deg, #d35400, #a04000); }
+    section.fish h2 { background: linear-gradient(90deg, #2980b9, #3498db); } /* أزرق بحري للسمك */
+    section.wings h2 { background: linear-gradient(90deg, #8e44ad, #9b59b6); } /* بنفسجي للأجنحة */
+
     section h2 {
-        font-size: 22px;
-        color: #0a0a0a;
-        background: linear-gradient(90deg, #0a0a0a, #d4af37);
-        padding: 6px 15px;
-        border-right: 5px solid #d4af37; /* خط جانبي ذهبي عريض */
-        margin-top: 0;
-        margin-bottom: 25px;
-        display: block;
+        font-size: 20px;
+        color: #ffffff;
+        padding: 10px 18px;
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-bottom: 20px;
         font-weight: 800;
-        border-radius: 0 8px 8px 0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
 
     ul {
@@ -74,22 +83,18 @@
         margin: 0;
     }
 
-    /* تأثير تفاعلي ملوكي عند لمس أو الضغط على الوجبة */
     li {
-        background: #fffdf9;
-        margin-bottom: 14px;
-        padding: 16px;
-        border-radius: 16px;
-        border: 1px solid #f0e6cc;
-        border-bottom: 3px solid #d4af37; /* قاعدة الوجبة ذهبية */
-        box-shadow: 0 3px 6px rgba(0,0,0,0.02);
-        transition: all 0.2s ease;
+        background: #fdfbfc;
+        margin-bottom: 12px;
+        padding: 14px;
+        border-radius: 14px;
+        border-right: 5px solid #e67e22; /* لمسة ملونة جانبية */
+        box-shadow: 0 3px 6px rgba(0,0,0,0.03);
+        transition: transform 0.2s;
     }
 
-    li:active {
+    li:animated {
         transform: scale(0.98);
-        background: #fbf7eb;
-        box-shadow: 0 2px 4px rgba(212, 175, 55, 0.2);
     }
 
     .item-row {
@@ -100,111 +105,106 @@
 
     .item-name {
         font-weight: 700;
-        font-size: 18px;
-        color: #0a0a0a; /* اسم الوجبة أسود عريض */
+        font-size: 17px;
+        color: #111111;
     }
 
-    /* سعر ملكي أسود داخل كبسولة ذهبية للوجبات الفردية */
+    /* كبسولة السعر الدائرية الملونة بالمنيو العادي */
     .item-price {
         font-weight: 800;
-        font-size: 18px;
-        color: #000000 !important; /* أسود حالك */
-        background: linear-gradient(135deg, #f9f3dd 0%, #e6cb7b 100%); /* خلفية ذهبية ملكية دافئة */
-        padding: 6px 16px;
-        border-radius: 12px;
+        font-size: 16px;
+        color: #ffffff;
+        background: #c0392b; /* لون أحمر مميز للأسعار الفردية */
+        padding: 5px 14px;
+        border-radius: 50px;
         white-space: nowrap;
-        border: 1px solid #d4af37;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
 
     .ingredients {
-        color: #555555; /* خامات الوجبة واضحة ومقروءة */
-        margin-top: 8px;
-        font-size: 14px;
+        color: #666666;
+        margin-top: 6px;
+        font-size: 13.5px;
         font-weight: 500;
     }
 
-    /* ترتيب وجدول الأحجام العائلية الـ 5 - قمة الفخامة والوضوح */
+    /* 🟢 جدول الأحجام الخمسة العائلية الفخم والمرتب 🟢 */
     .table-container {
         overflow-x: auto;
-        margin-top: 15px;
+        margin-top: 10px;
         border-radius: 16px;
-        border: 2px solid #d4af37;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        border: 2px solid #1e5631; /* إطار أخضر ملوكي متناسق */
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 
     table {
         width: 100%;
         border-collapse: collapse;
-        background: #ffffff;
+        background: #ffffff; /* خلفية بيضاء صافية لتبرز الأسعار */
         font-size: 16px;
     }
 
     th, td {
-        padding: 16px 12px;
+        padding: 15px 10px;
         text-align: center;
-        border: 1px solid #e5dbbd;
+        border: 1px solid #e0e0e0;
         white-space: nowrap;
     }
 
-    /* سطر الأحجام الـ 5 بالأسود الملكي الفخم وخط أبيض ناصع عريض جداً */
+    /* سطر الأحجام الـ 5 بخلفية سوداء ملكية وخط أبيض عريض */
     th {
-        background-color: #0a0a0a !important;
+        background-color: #111111 !important;
         color: #ffffff !important;
         font-weight: 900;
         font-size: 18px;
-        letter-spacing: 1px;
     }
 
     tr:nth-child(even) {
-        background: #fffdf7;
+        background: #f9fbf9; /* تدرج خفيف مريح جداً للعين */
     }
 
-    /* عمود أسماء الأصناف في الجدول */
+    /* عمود أسماء الوجبات داخل الجدول */
     td:first-child {
         font-weight: bold;
-        color: #0a0a0a; 
+        color: #1e5631; /* اسم الوجبة باللون الأخضر الغامق المتناسق */
         text-align: right;
-        background: #fdfaf2;
+        background: #f4f9f4;
         font-size: 16px;
-        border-left: 2px solid #e5cb7b;
     }
     
-    /* الأسعار باللون الأسود الغامق العريض 100% لتكون واضحة ومبينة وفخمة جداً تحت الـ 5 أحجام */
+    /* 🌟 الأسعار باللون الأسود الغامق العريض والواضح جداً تحت الـ 5 أحجام 🌟 */
     td:not(:first-child) {
         color: #000000 !important;
-        font-weight: 800;
+        font-weight: 900;
         font-size: 17px;
     }
 
-    /* صندوق التواصل الملكي */
+    /* صندوق التواصل المرتب */
     .contact-section {
-        background: linear-gradient(145deg, #ffffff 0%, #fdfaf2 100%);
-        border: 3px solid #d4af37;
+        background: #ffffff;
+        border: 3px solid #7a2214;
         text-align: center;
-        box-shadow: 0 5px 20px rgba(212, 175, 55, 0.15);
     }
 
     .contact-card {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         padding: 5px;
     }
 
     .contact-title {
         font-size: 18px;
-        color: #b38f1d;
+        color: #7a2214;
         font-weight: bold;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
 
     .contact-text {
-        font-size: 19px;
-        color: #0a0a0a;
-        margin: 6px 0;
+        font-size: 18px;
+        color: #111111;
+        margin: 5px 0;
         font-weight: 700;
     }
 
-    /* أزرار تواصل فخمة مريحة جداً */
+    /* أزرار قنوات التواصل التفاعلية */
     .btn-link {
         display: flex;
         align-items: center;
@@ -218,8 +218,7 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 16px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        transition: transform 0.2s;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
 
     .btn-fb {
@@ -228,7 +227,7 @@
     }
 
     .btn-phone {
-        background: linear-gradient(135deg, #1e7e34 0%, #155d27 100%);
+        background: linear-gradient(135deg, #25d366 0%, #1c9b47 100%);
         color: #ffffff;
     }
 </style>
@@ -238,10 +237,10 @@
 
 <header>
     <h1>مطعم وبيتزا أبو علي</h1>
-    <p>👑 الفرع الرئيسي والأصيل - عراقة الماضي وفخامة الحاضر 👑</p>
+    <p>👑 الفرع الرئيسي والأصيل - طعم ملوكي وخيارات منوعة 👑</p>
 </header>
 
-<section>
+<section class="pizza">
     <h2>🍕 قسم البيتزا والمعجنات</h2>
     <ul>
         <li>
@@ -327,7 +326,7 @@
     </ul>
 </section>
 
-<section>
+<section class="calzone">
     <h2>🥪 قسم المعجنات والبيتزا المسكرة (كالزوني)</h2>
     <ul>
         <li><div class="item-row"><div class="item-name">كالزوني خضار</div><div class="item-price">8₪</div></div></li>
@@ -347,8 +346,8 @@
     </ul>
 </section>
 
-<section>
-    <h2>👨‍👩‍👧‍👦 قسم الوجبات العائلية (الأحجام الخمسة)</h2>
+<section class="family">
+    <h2>👨‍👩‍👧‍👦 قسم الوجبات العائلية (الأحجام الـ 5 المرتبة)</h2>
     <div class="table-container">
         <table>
             <thead>
@@ -377,7 +376,7 @@
     </div>
 </section>
 
-<section>
+<section class="toast">
     <h2>🍞 قسم التوستات</h2>
     <ul>
         <li>
@@ -400,7 +399,7 @@
     </ul>
 </section>
 
-<section>
+<section class="burger">
     <h2>🍔 قسم الساندوش</h2>
     <ul>
         <li>
@@ -418,7 +417,7 @@
     </ul>
 </section>
 
-<section>
+<section class="chicken">
     <h2>🍗 قسم تشكن أبو علي</h2>
     <ul>
         <li>
@@ -437,14 +436,14 @@
     </ul>
 </section>
 
-<section>
+<section class="fish">
     <h2>🐟 قسم السمك</h2>
     <ul>
         <li><div class="item-row"><div class="item-name">(5) قطع فيله سمك</div><div class="item-price">25₪</div></div></li>
     </ul>
 </section>
 
-<section>
+<section class="wings">
     <h2>🦅 قسم الأجنحة</h2>
     <ul>
         <li>
@@ -459,7 +458,7 @@
 </section>
  
 <section class="contact-section">
-    <h2>📍 معلومات الفرع الرئيسي الملكي</h2>
+    <h2>📍 معلومات الفرع الرئيسي الملون</h2>
     
     <div class="contact-card">
         <div class="contact-title">📌 العنوان</div>
