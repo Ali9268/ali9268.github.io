@@ -6,7 +6,7 @@
 <title>مطعم وبيتزا أبو علي - الفرع الأساسي</title>
 
 <style>
-    /* تصميم عصري ملوكي فخم جداً */
+    /* تصميم عصري ملوكي فخم ومضمون الوضوح */
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: #0b0b0b;
@@ -16,7 +16,7 @@
         line-height: 1.6;
     }
 
-    /* الهيدر والترحيب بالفرع الأساسي */
+    /* الهيدر والترحيب */
     header {
         text-align: center;
         padding: 35px 15px;
@@ -30,19 +30,19 @@
     header h1 {
         margin: 0;
         font-size: 28px;
-        color: #ff6b35; /* برتقالي دافئ جذاب */
+        color: #ff6b35;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     }
 
     header p {
         margin: 8px 0 0 0;
-        color: #d4af37; /* ذهبي فخم للذكريات والتعب */
+        color: #d4af37;
         font-weight: bold;
         font-size: 15px;
         letter-spacing: 1px;
     }
 
-    /* الأقسام والبطاقات الزجاجية */
+    /* الأقسام والبطاقات */
     section {
         margin-bottom: 30px;
         background: #141414;
@@ -62,7 +62,6 @@
         display: inline-block;
     }
 
-    /* قوائم المأكولات */
     ul {
         list-style: none;
         padding: 0;
@@ -74,15 +73,9 @@
         margin-bottom: 12px;
         padding: 15px;
         border-radius: 14px;
-        border-right: 4px solid #ff6b35; /* خط جانبي أنيق */
-        transition: transform 0.2s ease;
+        border-right: 4px solid #ff6b35;
     }
 
-    li:active {
-        transform: scale(0.98);
-    }
-
-    /* ترتيب العناصر والأسعار */
     .item-row {
         display: flex;
         justify-content: space-between;
@@ -112,36 +105,38 @@
         font-style: italic;
     }
 
-    /* جدول الوجبات العائلية الفخم */
+    /* تنسيق الجدول العائلي والأحجام بدقة */
     .table-container {
         overflow-x: auto;
         margin-top: 15px;
         border-radius: 12px;
-        border: 1px solid #333;
+        border: 1px solid #383838;
     }
 
     table {
         width: 100%;
         border-collapse: collapse;
-        background: #1a1a1a;
-        color: #fff;
-        font-size: 14px;
+        background: #141414;
+        color: #ffffff;
+        font-size: 15px;
     }
 
     th, td {
-        padding: 12px 10px;
+        padding: 14px 10px;
         text-align: center;
         border: 1px solid #2d2d2d;
+        white-space: nowrap;
     }
 
     th {
         background-color: #ff6b35;
-        color: #000;
+        color: #000000;
         font-weight: bold;
+        font-size: 16px;
     }
 
     tr:nth-child(even) {
-        background: #222222;
+        background: #1c1c1c;
     }
 
     td:first-child {
@@ -149,8 +144,13 @@
         color: #ff6b35;
         text-align: right;
     }
+    
+    td:not(:first-child) {
+        color: #ffffff;
+        font-weight: 600;
+    }
 
-    /* صندوق التواصل الملوكي */
+    /* صندوق التواصل */
     .contact-section {
         background: linear-gradient(135deg, #141414 0%, #22120c 100%);
         border: 1px solid #d4af37;
@@ -175,7 +175,6 @@
         margin: 5px 0;
     }
 
-    /* أزرار تفاعلية فخمة للاتصال والفيسبوك */
     .btn-link {
         display: inline-block;
         width: 85%;
@@ -186,11 +185,6 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 15px;
-        transition: transform 0.2s;
-    }
-
-    .btn-link:active {
-        transform: scale(0.95);
     }
 
     .btn-fb {
@@ -219,7 +213,7 @@
     <ul>
         <li>
             <div class="item-row"><div class="item-name">بيتزا سمول</div><div class="item-price">8₪</div></div>
-            <div class="ingredients">(ذرة، زيتون، فلفل، جبنة، صوص، نقانق)</div>
+            <div class="ingredients">(ذرة، زيتون، fلفل، جبنة، صوص، نقانق)</div>
         </li>
         <li>
             <div class="item-row"><div class="item-name">مسحب / باربيكيو</div><div class="item-price">12₪</div></div>
@@ -278,7 +272,7 @@
             <div class="item-row"><div class="item-name">جبنة عربية</div><div class="item-price">8₪</div></div>
             <div class="ingredients">(مع زعتر أخضر، أو زعتر دقة، أو بدون)</div>
         </li>
-        <li><div class="item-row"><div class="item-name">أقراص بيض</div><div class="item-price">8₪</div></div></li>
+        <li><div class="item-row"><div class="item-name">أقراص بيض</div><div class="item-price">6₪</div></div></li>
         <li>
             <div class="item-row"><div class="item-name">فطر</div><div class="item-price">8₪</div></div>
             <div class="ingredients">(فطر مع خلطة خاصة، بصل، جبنة)</div>
@@ -378,7 +372,7 @@
     <ul>
         <li>
             <div class="item-row"><div class="item-name">برجر كرسبي / 3 قطع</div><div class="item-price">22₪</div></div>
-            <div class="ingredients">(صوصات، بطاطا، خس، جبنة., كولسلو اختياري، بصل، مخلل)</div>
+            <div class="ingredients">(صوصات، بطاطا، خس، جبنة، كولسلو اختياري، بصل، مخلل)</div>
         </li>
         <li><div class="item-row"><div class="item-name">باجيت كرسبي / 3 قطع</div><div class="item-price">22₪</div></div></li>
         <li>
@@ -443,7 +437,7 @@
         <div class="contact-title">📞 أرقام الطلبات والتوصيل</div>
         <div class="contact-text">0523073771</div>
         <div class="contact-text">0549170022</div>
-        <div class="contact-text">0592622959</div>
+        <div class="contact-text">0598482070</div>
     </div>
 
     <div class="contact-card">
