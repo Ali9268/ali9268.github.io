@@ -3,63 +3,71 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مطعم وبيتزا أبو علي - الفرع الأساسي</title>
+<title>مطعم وبيتزا أبو علي - الفرع الأساسي الفاخر</title>
 
 <style>
-    /* تصميم عصري ملوكي فخم ومضمون الوضوح */
+    /* تصميم الترا مودرن - فخامة مطلقة */
     body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #0b0b0b;
-        color: #f5f5f5;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        background-color: #060606;
+        color: #f0f0f0;
         margin: 0;
         padding: 15px;
         line-height: 1.6;
     }
 
-    /* الهيدر والترحيب */
+    /* هيدر سينمائي فخم */
     header {
         text-align: center;
-        padding: 35px 15px;
-        background: linear-gradient(135deg, #220b02 0%, #441505 100%);
+        padding: 40px 20px;
+        background: linear-gradient(145deg, #1f0801 0%, #3d1204 50%, #120400 100%);
         border-radius: 25px;
-        margin-bottom: 25px;
-        border: 1px solid #ff6b35;
-        box-shadow: 0 4px 20px rgba(255, 107, 53, 0.15);
+        margin-bottom: 30px;
+        border: 2px solid #ff6b35;
+        box-shadow: 0 8px 32px rgba(255, 107, 53, 0.25);
+        position: relative;
+        overflow: hidden;
     }
 
     header h1 {
         margin: 0;
-        font-size: 28px;
+        font-size: 32px;
         color: #ff6b35;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        text-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
+        font-weight: 900;
     }
 
     header p {
-        margin: 8px 0 0 0;
-        color: #d4af37;
+        margin: 12px 0 0 0;
+        color: #ffcc00;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 16px;
         letter-spacing: 1px;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.8);
     }
 
-    /* الأقسام والبطاقات */
+    /* بطاقات الأقسام المتوهجة */
     section {
-        margin-bottom: 30px;
-        background: #141414;
-        padding: 22px;
-        border-radius: 20px;
-        border: 1px solid #262626;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+        margin-bottom: 35px;
+        background: rgba(20, 20, 20, 0.95);
+        padding: 24px;
+        border-radius: 24px;
+        border: 1px solid rgba(255, 107, 53, 0.15);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     }
 
     section h2 {
-        font-size: 20px;
-        color: #ff6b35;
-        border-bottom: 2px solid #ff6b35;
-        padding-bottom: 8px;
+        font-size: 22px;
+        color: #ffffff;
+        background: linear-gradient(90deg, #ff6b35, #ff9f1c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-bottom: 3px solid #ff6b35;
+        padding-bottom: 6px;
         margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 22px;
         display: inline-block;
+        font-weight: 800;
     }
 
     ul {
@@ -68,12 +76,21 @@
         margin: 0;
     }
 
+    /* تأثير تفاعلي مذهل عند لمس الوجبات */
     li {
-        background: #1a1a1a;
-        margin-bottom: 12px;
-        padding: 15px;
-        border-radius: 14px;
-        border-right: 4px solid #ff6b35;
+        background: #161616;
+        margin-bottom: 14px;
+        padding: 16px;
+        border-radius: 16px;
+        border-right: 5px solid #ff6b35;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    li:active {
+        transform: scale(0.97);
+        background: #1f1f1f;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.5);
     }
 
     .item-row {
@@ -83,120 +100,139 @@
     }
 
     .item-name {
-        font-weight: bold;
-        font-size: 16px;
+        font-weight: 700;
+        font-size: 17px;
         color: #ffffff;
     }
 
+    /* سعر ملوكي بارز برتقالي بالأقسام العادية */
     .item-price {
-        font-weight: bold;
-        font-size: 17px;
-        color: #ff6b35;
-        background: #262626;
-        padding: 4px 12px;
-        border-radius: 8px;
+        font-weight: 800;
+        font-size: 18px;
+        color: #ff9f1c;
+        background: #242424;
+        padding: 6px 14px;
+        border-radius: 10px;
         white-space: nowrap;
+        border: 1px solid rgba(255, 159, 28, 0.3);
     }
 
     .ingredients {
-        color: #b0b0b0;
-        margin-top: 6px;
-        font-size: 13px;
-        font-style: italic;
+        color: #a5a5a5;
+        margin-top: 8px;
+        font-size: 13.5px;
+        font-weight: 500;
     }
 
-    /* تنسيق الجدول العائلي والأحجام بدقة */
+    /* تعديل الجدول ليصبح بخلفية بيضاء وأسعار سوداء واضحة جداً */
     .table-container {
         overflow-x: auto;
         margin-top: 15px;
-        border-radius: 12px;
-        border: 1px solid #383838;
+        border-radius: 16px;
+        border: 2px solid #ff6b35;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     }
 
     table {
         width: 100%;
         border-collapse: collapse;
-        background: #141414;
-        color: #ffffff;
-        font-size: 15px;
+        background: #ffffff; /* خلفية بيضاء ساطعة لجدول الأحجام */
+        font-size: 16px;
     }
 
     th, td {
-        padding: 14px 10px;
+        padding: 16px 12px;
         text-align: center;
-        border: 1px solid #2d2d2d;
+        border: 1px solid #cccccc;
         white-space: nowrap;
     }
 
+    /* سطر الأحجام أسود ملكي فخم */
     th {
-        background-color: #ff6b35;
-        color: #000000;
-        font-weight: bold;
-        font-size: 16px;
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        font-weight: 900;
+        font-size: 18px;
+        border-bottom: 3px solid #ff6b35;
     }
 
     tr:nth-child(even) {
-        background: #1c1c1c;
+        background: #f9f9f9; /* تباين خفيف بين الصفوف */
     }
 
+    /* اسم الوجبة العائلية */
     td:first-child {
         font-weight: bold;
-        color: #ff6b35;
+        color: #b22222; /* لون أحمر غامق فخم لاسم الوجبة داخل الجدول */
         text-align: right;
+        background: #f1f1f1;
     }
     
+    /* لون الأسعار بالأسود الغامق الواضح جداً بناءً على طلبك */
     td:not(:first-child) {
-        color: #ffffff;
-        font-weight: 600;
+        color: #000000 !important;
+        font-weight: 800;
+        font-size: 16px;
     }
 
-    /* صندوق التواصل */
+    /* قسم التواصل الخرافي */
     .contact-section {
-        background: linear-gradient(135deg, #141414 0%, #22120c 100%);
-        border: 1px solid #d4af37;
+        background: linear-gradient(145deg, #111111 0%, #1f0b04 100%);
+        border: 2px solid #ff9f1c;
         text-align: center;
+        box-shadow: 0 0 25px rgba(255, 159, 28, 0.15);
     }
 
     .contact-card {
-        margin-bottom: 20px;
-        padding: 10px;
+        margin-bottom: 25px;
+        padding: 5px;
     }
 
     .contact-title {
-        font-size: 16px;
-        color: #d4af37;
+        font-size: 17px;
+        color: #ff9f1c;
         font-weight: bold;
-        margin-bottom: 8px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
     }
 
     .contact-text {
-        font-size: 16px;
-        color: #e0e0e0;
-        margin: 5px 0;
+        font-size: 18px;
+        color: #ffffff;
+        margin: 6px 0;
+        font-weight: 600;
+        letter-spacing: 0.5px;
     }
 
+    /* أزرار تفاعلية فخمة جداً بنبض بصري */
     .btn-link {
-        display: inline-block;
-        width: 85%;
-        max-width: 280px;
-        margin: 8px auto;
-        padding: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 88%;
+        max-width: 290px;
+        margin: 12px auto;
+        padding: 14px;
         border-radius: 50px;
         text-decoration: none;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 16px;
+        transition: transform 0.2s, box-shadow 0.2s;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.4);
     }
 
     .btn-fb {
-        background: linear-gradient(135deg, #1877f2 0%, #1153a8 100%);
+        background: linear-gradient(135deg, #1877f2 0%, #0c5ca9 100%);
         color: #ffffff;
-        box-shadow: 0 4px 10px rgba(24, 119, 242, 0.3);
     }
 
     .btn-phone {
-        background: linear-gradient(135deg, #25d366 0%, #1b9a4b 100%);
+        background: linear-gradient(135deg, #25d366 0%, #16a34a 100%);
         color: #ffffff;
-        box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
     }
 </style>
 </head>
@@ -205,7 +241,7 @@
 
 <header>
     <h1>مطعم وبيتزا أبو علي</h1>
-    <p>🍕 أصالة المذاق.. وتاريخ نعتز به (الفرع الرئيسي) 🍕</p>
+    <p>👑 الفرع الرئيسي والأصيل - نعتز بـخدمتكم وثقتكم 👑</p>
 </header>
 
 <section>
@@ -213,7 +249,7 @@
     <ul>
         <li>
             <div class="item-row"><div class="item-name">بيتزا سمول</div><div class="item-price">8₪</div></div>
-            <div class="ingredients">(ذرة، زيتون، fلفل، جبنة، صوص، نقانق)</div>
+            <div class="ingredients">(ذرة، زيتون، فلفل، جبنة، صوص، نقانق)</div>
         </li>
         <li>
             <div class="item-row"><div class="item-name">مسحب / باربيكيو</div><div class="item-price">12₪</div></div>
